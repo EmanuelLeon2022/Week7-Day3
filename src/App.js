@@ -1,4 +1,5 @@
 import './App.css';
+import Serch from './Serch';
 import Temmie from './Temmie';
 import Temmie1 from './Temmie1';
 import Temmie2 from './Temmie2';
@@ -13,8 +14,11 @@ function App() {
       <header className="App-header">
         <div className='all'>
           <div className='emp'>
-            <div className='serch'>
+            <div className='title'>
               
+            </div>
+            <div className='serch'>
+              <Serch/>
             </div>
             <div>
               <Temmie/>
