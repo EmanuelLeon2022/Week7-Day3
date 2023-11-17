@@ -7,6 +7,7 @@ import Temmie3 from './Temmie3';
 import Temmie4 from './Temmie4';
 import Bob from './Bob';
 import Bobi from './Bobi';
+import Emps from './Emps';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <div className='all'>
           <div className='emp'>
             <div className='title'>
-              
+              <Emps/>
             </div>
             <div className='serch'>
               <Serch/>

@@ -47,10 +47,19 @@
   justify-content: center;
 }
 .title{
-  
+  border: solid #61dafb;
+  height: 40px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .serch{
   border: solid black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sel{
   display: flex;
@@ -58,7 +67,12 @@
   border: solid 2px brown;
 }
 .off{
-  border: solid;
+  border: 2px solid;
+  height: 80px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   height: 80px;
 }
 
