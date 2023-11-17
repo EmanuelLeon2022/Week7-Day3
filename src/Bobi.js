@@ -4,9 +4,6 @@ function Bobi() {
   return (
     <div>
         <Bob/>
-        <div>
-            
-        </div>
           <div>
               <div className="off">
                   <h5>Call Office</h5>
